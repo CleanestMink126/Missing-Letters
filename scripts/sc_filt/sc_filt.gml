@@ -15,5 +15,4 @@ repeat(25){
 	}
 	ind = ind+1;
 }
-show_debug_message(str);
 return str;

@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "26ff177e-8a67-4414-82dd-c76da35d1027",
+            "Value": {
+                "id": "342a9f21-822e-4418-868d-194ba7cee4ae",
+                "resourcePath": "sounds\\a_horn2\\a_horn2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "28c778a3-023f-4eb6-8cad-817741fdd445",
             "Value": {
                 "id": "351804b6-4687-4c2b-840c-a9147c3ab514",
@@ -407,6 +415,14 @@
             }
         },
         {
+            "Key": "e30f07df-7c45-4ee9-b0b9-70b06ae24831",
+            "Value": {
+                "id": "f20bb996-9e5b-489c-ac27-45106bfb2ea0",
+                "resourcePath": "scripts\\sc_load_room_goals\\sc_load_room_goals.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e5b3f804-192a-4355-94f9-f370c5ad909a",
             "Value": {
                 "id": "de5c6f3c-a142-40ff-8fe1-22c02b273d0c",
@@ -465,7 +481,8 @@
     ],
     "script_order": [
         "82564046-e28b-4575-84df-5514081b417d",
-        "26324b4e-8c80-4653-88d6-02c06d56615f"
+        "26324b4e-8c80-4653-88d6-02c06d56615f",
+        "e30f07df-7c45-4ee9-b0b9-70b06ae24831"
     ],
     "tutorial": ""
 }

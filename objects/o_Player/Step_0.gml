@@ -12,10 +12,9 @@ num_removed = m;
 
 if (room == room2){
 	var delta = current_time - last_time;
-	if (delta > 3000){
-		var boundsx = [100, 1100];
-		var boundsy = [100, 1100];
-		repeat(4){
+	if (delta > 10000){
+		audio_play_sound(a_horn2, 9, 0);
+		repeat(5){
 			var j = irandom(25);
 			if (letters[j]){
 				letters[j] = 0;
@@ -24,11 +23,15 @@ if (room == room2){
 					continue;
 				}
 				inst = instance_create_layer(x, y, "Player", o_letters);
+				var size = array_length_1d(valid_spaces);
+				var space = irandom(size-1);
+				var goal = valid_spaces[space];
+				show_debug_message(goal);
 				with (inst)
 				{
 					image_index = j;
-					goalx = random_range(boundsx[0], boundsx[1]);
-					goaly = random_range(boundsy[0], boundsy[1]);
+					goalx = goal[0];
+					goaly = goal[1];
 				}	
 			}
 		}

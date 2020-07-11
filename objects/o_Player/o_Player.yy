@@ -212,6 +212,20 @@
             "value": "0",
             "varName": "full_ui",
             "varType": 0
+        },
+        {
+            "id": "a621d372-0c23-4ed9-8909-5cb0b03a986d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "valid_spaces",
+            "varType": 6
         }
     ],
     "solid": false,
