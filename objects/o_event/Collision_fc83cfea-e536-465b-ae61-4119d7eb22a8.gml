@@ -9,6 +9,7 @@ var goals = [
 [900, 640]
 ];
 var player = instance_find(o_Player, 0);
+player.full_ui = true;
 var inst;
 for(var j=0; j<4;j = j + 1){
 	inst = instance_create_layer(x, y, "Player", o_letters);
