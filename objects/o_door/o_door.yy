@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_door",
     "eventList": [
-        
+        {
+            "id": "92b9f5a6-a12c-4d99-9bab-b35b59740d84",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "4ae30da1-5b2a-40d4-a093-c25309f4d56f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,7 +31,22 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "af678f7e-76ac-45d4-b559-e185987c609b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"\"",
+            "varName": "Password",
+            "varType": 2
+        }
+    ],
     "solid": false,
     "spriteId": "6a421874-ae99-43cf-a195-c45c03893a24",
     "visible": true

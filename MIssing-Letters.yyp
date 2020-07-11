@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1a2f474b-e89d-4ced-93c4-8905adfe9df0",
+            "Value": {
+                "id": "297a04c5-3fbb-43f0-9e41-af66e198b666",
+                "resourcePath": "objects\\o_riddleevent\\o_riddleevent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1b513af5-650a-4534-b45a-8ab37a74fc48",
             "Value": {
                 "id": "9bb7f689-1e07-4ec3-b296-4e404d9ceaed",
@@ -140,6 +148,14 @@
                 "id": "36b7f56a-3e08-4909-85b6-7bc7ed32726d",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "31d6411b-4a55-4eb3-a0fb-1d302e462267",
+            "Value": {
+                "id": "9a474d1e-9a15-4514-afcf-b8e6fbc85fe9",
+                "resourcePath": "objects\\o_textbox\\o_textbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -283,6 +299,14 @@
             "Value": {
                 "id": "fff7b59e-d3c8-4214-badf-3fef98a5e874",
                 "resourcePath": "sprites\\s_Wall\\s_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d6fbc4f-3f63-47cb-8957-4c3164d8b6db",
+            "Value": {
+                "id": "50d7b5b8-f3eb-42f5-af9d-0959f61f375a",
+                "resourcePath": "sprites\\s_textbox\\s_textbox.yy",
                 "resourceType": "GMSprite"
             }
         },
