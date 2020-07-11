@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "38651ca7-5301-475e-ac20-c2c82b18b8ac",
+            "Value": {
+                "id": "5b7de9f7-7e62-45c9-9ee3-f640e75ca6fc",
+                "resourcePath": "sprites\\s_letters\\s_letters.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3883f77e-43ea-4bc6-be47-79f3d1c56f49",
             "Value": {
                 "id": "853cd998-1c1c-4f66-ab6e-77da8b4a41af",
