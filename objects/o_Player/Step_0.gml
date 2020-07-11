@@ -8,7 +8,7 @@ repeat(26){
 }
 num_removed = m;
 
-
+//image_angle = arctan2(phy_speed_y, phy_speed_x) * 180 / 3.14159
 
 if (room == room2){
 	var delta = current_time - last_time;
@@ -43,15 +43,19 @@ if (room == room2){
 var old_audio = curr_audio;
 if (num_removed < 3){
 	curr_audio = 0;
+	image_index = 0;
 }else if (num_removed < 7){
 	curr_audio = 1;
+	image_index = 0;
 }else if (num_removed < 14){
 	curr_audio = 2;
+	image_index = 1;
 }else{
 	curr_audio = 3;
+	image_index = 2;
 }
 if (old_audio != curr_audio){
 	var arr = [a_still, a_slow, a_med, a_fast1];
-	audio_group_stop_all(audiogroup1)
+	audio_group_stop_all(audiogroup2)
 	audio_play_sound(arr[curr_audio], 10, 1);
 }

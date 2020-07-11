@@ -8,6 +8,7 @@ var goals = [
 [842, 308],
 [900, 640]
 ];
+audio_play_sound(a_horn2, 3, 0);
 var player = instance_find(o_Player, 0);
 player.full_ui = true;
 var inst;

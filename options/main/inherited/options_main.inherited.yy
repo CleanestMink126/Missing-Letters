@@ -29,6 +29,16 @@
                     "groupName": "audiogroup1",
                     "targets": 461609314234257646
                 }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "993c5e43-585a-46f6-ac3b-fe1425588f09",
+                    "modelName": "GMAudioGroup",
+                    "mvc": "1.0",
+                    "groupName": "audiogroup2",
+                    "targets": 461609314234257646
+                }
             }
         ],
         "Checksum": "濑Ⱥ朦씁ᬄ縈",

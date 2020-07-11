@@ -63,7 +63,7 @@
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
     "physicsGroup": 1,
-    "physicsKinematic": false,
+    "physicsKinematic": true,
     "physicsLinearDamping": 5,
     "physicsObject": true,
     "physicsRestitution": 0.1,
@@ -71,32 +71,32 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "3839c608-d9a9-4a32-933f-b54839082578",
+            "id": "96602326-a882-43bb-84a8-99a872bc3416",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 0,
-            "y": 0
+            "x": 6,
+            "y": 10
         },
         {
-            "id": "fe671163-bc05-4f96-8ecf-b0fb54fac5d5",
+            "id": "db206dba-240b-4972-99b6-dacf99342471",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 40,
-            "y": 0
+            "x": 36,
+            "y": 10
         },
         {
-            "id": "9191a395-8975-48f7-a81f-15d77aa70e40",
+            "id": "cc85fa9b-8df7-480e-b6c5-7cb2084c19e0",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 40,
-            "y": 40
+            "x": 36,
+            "y": 26
         },
         {
-            "id": "748dc04b-dedc-40a3-8dc5-8e5ae5700351",
+            "id": "5ba9580e-d58f-44fb-b124-bd68de9f97b6",
             "modelName": "GMPoint",
             "mvc": "1.0",
-            "x": 0,
-            "y": 40
+            "x": 6,
+            "y": 26
         }
     ],
     "physicsStartAwake": true,
@@ -226,6 +226,34 @@
             "value": "0",
             "varName": "valid_spaces",
             "varType": 6
+        },
+        {
+            "id": "0bb37b74-1182-4afd-bd46-e9e4b577a152",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "image_speed",
+            "varType": 0
+        },
+        {
+            "id": "cc878e7b-9ae5-4576-b76e-d35caade880b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "image_angle",
+            "varType": 0
         }
     ],
     "solid": false,

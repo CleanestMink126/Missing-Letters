@@ -18,5 +18,6 @@ if ((abs(curr_errorx) + abs(curr_errory))< 50){
 		room_goto(room2);
 		player.x = 670;
 		player.y = 640;
+		player.player_speed = 10;
 	}
 }
