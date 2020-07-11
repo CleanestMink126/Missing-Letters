@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "25fbdfac-c5d4-4a87-acc2-edd37498cfc0",
+            "Value": {
+                "id": "b2050849-c895-4729-8a80-b8e8c7567420",
+                "resourcePath": "objects\\o_event\\o_event.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28c778a3-023f-4eb6-8cad-817741fdd445",
             "Value": {
                 "id": "351804b6-4687-4c2b-840c-a9147c3ab514",
@@ -276,6 +284,14 @@
                 "id": "aa099def-6157-4e8a-a0c2-2d40da68beaf",
                 "resourcePath": "views\\ccfb8a44-f320-46ab-affc-384f64d875f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e5b3f804-192a-4355-94f9-f370c5ad909a",
+            "Value": {
+                "id": "c2f56283-9039-4a6e-b55b-ae5a6dc7b312",
+                "resourcePath": "objects\\o_letters\\o_letters.yy",
+                "resourceType": "GMObject"
             }
         },
         {
