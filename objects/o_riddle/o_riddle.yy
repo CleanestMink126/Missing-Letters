@@ -23,6 +23,16 @@
             "enumb": 32,
             "eventtype": 9,
             "m_owner": "1f4cea15-799d-4dfe-9e73-cf9a61091fb2"
+        },
+        {
+            "id": "c45fe660-4c3f-48cc-b4b5-183c88b0383d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "1f4cea15-799d-4dfe-9e73-cf9a61091fb2"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -69,6 +79,20 @@
             "value": "\"\"",
             "varName": "Password",
             "varType": 2
+        },
+        {
+            "id": "ef41ed1b-45e1-496c-981e-e555f44a8140",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "PlayerInput",
+            "varType": 6
         }
     ],
     "solid": false,

@@ -47,6 +47,46 @@
             }
         },
         {
+            "Key": "0ca2187f-ee27-411f-a761-34c9b4f93344",
+            "Value": {
+                "id": "08353845-6a7b-4f99-99da-2b2f8c82e943",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "119471c4-bde9-41e6-9cb1-96d8814d1bb0",
+            "Value": {
+                "id": "8c85987e-544e-4d14-9df0-eb35f1cc0e1b",
+                "resourcePath": "sprites\\s_activeWire\\s_activeWire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "18664a14-933b-4eac-a731-0316ebbd4295",
+            "Value": {
+                "id": "b6368136-124e-4399-802b-c742ef990dbd",
+                "resourcePath": "objects\\o_staticPlayer\\o_staticPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1b513af5-650a-4534-b45a-8ab37a74fc48",
+            "Value": {
+                "id": "9bb7f689-1e07-4ec3-b296-4e404d9ceaed",
+                "resourcePath": "objects\\o_wire\\o_wire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1f4cea15-799d-4dfe-9e73-cf9a61091fb2",
+            "Value": {
+                "id": "9ca924aa-66f2-4dc3-871f-c37e9a0d8626",
+                "resourcePath": "objects\\o_riddle\\o_riddle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "25fbdfac-c5d4-4a87-acc2-edd37498cfc0",
             "Value": {
                 "id": "3a57034d-23cd-46b5-b2ce-feadffb5b4bb",
@@ -103,11 +143,35 @@
             }
         },
         {
+            "Key": "4ae30da1-5b2a-40d4-a093-c25309f4d56f",
+            "Value": {
+                "id": "e16bf169-5885-4669-81e7-2f84b4698d99",
+                "resourcePath": "objects\\o_door\\o_door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c7e9795-90d4-4c60-aede-bea3d5885c54",
+            "Value": {
+                "id": "87635575-dda6-4f8e-817e-7fdfb54ef5ef",
+                "resourcePath": "objects\\o_activeWire\\o_activeWire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "54a1cb32-b056-40b6-b199-706e49e573b6",
             "Value": {
                 "id": "fa9f1529-4d27-4c4f-831b-e81c6b8b153c",
                 "resourcePath": "views\\54a1cb32-b056-40b6-b199-706e49e573b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "56f8adaa-1878-40ea-809b-1569b0da66bb",
+            "Value": {
+                "id": "fc10817d-84ed-4e83-8957-bb35390816ef",
+                "resourcePath": "objects\\o_solvedRiddle\\o_solvedRiddle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -124,6 +188,14 @@
                 "id": "35186ce1-27fb-44b0-a732-07bddebe2b27",
                 "resourcePath": "views\\5d6f9fd3-71e3-4bc5-857a-fbf419298233.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6a421874-ae99-43cf-a195-c45c03893a24",
+            "Value": {
+                "id": "b6a4d90b-7cb6-4df1-8ad4-4d498e5a7f02",
+                "resourcePath": "sprites\\s_door\\s_door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -148,6 +220,14 @@
                 "id": "4a44a43e-07cd-4afc-aed8-f990d9f0dda9",
                 "resourcePath": "views\\814440a5-fefe-49c8-9361-084384be491d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "867be560-c556-401e-afd3-684c79debc8f",
+            "Value": {
+                "id": "bc3fe18e-8d8d-47f4-940d-f4e21d07c259",
+                "resourcePath": "sprites\\s_Riddle\\s_Riddle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -183,6 +263,14 @@
             }
         },
         {
+            "Key": "a994dc18-9456-4724-848c-7caee9e0146d",
+            "Value": {
+                "id": "c80acc05-85f9-4481-8381-f88a5cf2a601",
+                "resourcePath": "sprites\\s_solvedRiddle\\s_solvedRiddle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b120dd26-958a-4588-a0f7-07e1d1d6518c",
             "Value": {
                 "id": "c1df407a-5793-4e33-9814-f05eeb07a6a4",
@@ -195,6 +283,14 @@
             "Value": {
                 "id": "2ef4f7ad-aee7-411b-80ec-070de7433d7b",
                 "resourcePath": "sprites\\s_Player\\s_Player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c5c33559-a5e7-44d3-ae9d-1c7b18aceda5",
+            "Value": {
+                "id": "cd39d696-d43c-46eb-bb92-99c2b9ffdeb6",
+                "resourcePath": "sprites\\s_wire\\s_wire.yy",
                 "resourceType": "GMSprite"
             }
         },

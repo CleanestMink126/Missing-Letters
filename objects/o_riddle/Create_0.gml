@@ -1,3 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
-var riddle = "";
+//Create the list to be equivalent in length to the password string instance variable
+var i;
+var empt = [];
+for (i=0;i<string_length(o_riddle.Password);i++){
+	ds_list_add(empt,"");
+}
+
+
+o_riddle.PlayerInput = empt;
