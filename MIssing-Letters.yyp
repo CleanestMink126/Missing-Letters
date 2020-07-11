@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c97be64-fbee-42de-b2a4-00232c3d38ba",
+            "Value": {
+                "id": "f487ebbb-ab03-40f3-b3df-073ff1a28a6b",
+                "resourcePath": "sprites\\s_event\\s_event.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "119471c4-bde9-41e6-9cb1-96d8814d1bb0",
             "Value": {
                 "id": "f4cb77ae-1301-4e9d-8fb6-831bc42e6b51",
@@ -59,6 +67,14 @@
             "Value": {
                 "id": "13926e83-82e7-4252-bbb2-310c0ab26f35",
                 "resourcePath": "objects\\o_riddle\\o_riddle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "25fbdfac-c5d4-4a87-acc2-edd37498cfc0",
+            "Value": {
+                "id": "bdc839f7-4788-4145-acfc-4dea3c184407",
+                "resourcePath": "objects\\o_event\\o_event.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -84,6 +100,14 @@
                 "id": "8042d548-e598-4c63-a402-6725a8772cb5",
                 "resourcePath": "views\\37bc9e5e-185d-44dd-9ed7-0ce98ea1624d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38651ca7-5301-475e-ac20-c2c82b18b8ac",
+            "Value": {
+                "id": "d2760f2b-00bd-466b-acf2-63017797485f",
+                "resourcePath": "sprites\\s_letters\\s_letters.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -175,11 +199,27 @@
             }
         },
         {
+            "Key": "7caaa45c-a167-439c-819f-fe6f2abeecea",
+            "Value": {
+                "id": "4ef8d0cf-573a-4bed-a957-71f06814c3f0",
+                "resourcePath": "datafiles_yy\\o_letters\\Create_0.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "814440a5-fefe-49c8-9361-084384be491d",
             "Value": {
                 "id": "4a44a43e-07cd-4afc-aed8-f990d9f0dda9",
                 "resourcePath": "views\\814440a5-fefe-49c8-9361-084384be491d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "862a5ec3-4158-4b42-9e48-1257e8b937ec",
+            "Value": {
+                "id": "a89e72f4-40aa-43a8-b8ff-7a54563491da",
+                "resourcePath": "datafiles_yy\\o_letters\\o_letters.yy.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -211,6 +251,14 @@
             "Value": {
                 "id": "63f25b41-9fea-48d7-a9fb-5470b1f9a4a4",
                 "resourcePath": "views\\95c9e9d1-a7f2-42f0-b460-275c6bdc0b53.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "997f970c-6935-4945-a141-65a152726cae",
+            "Value": {
+                "id": "185c72a5-5835-4186-a762-ce11fb4f24d2",
+                "resourcePath": "views\\997f970c-6935-4945-a141-65a152726cae.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -255,6 +303,14 @@
             }
         },
         {
+            "Key": "c7a43cdd-5c70-47dc-af5c-983cdfbaf2d1",
+            "Value": {
+                "id": "6fd10587-7bc7-420c-92e4-754ff7635150",
+                "resourcePath": "datafiles_yy\\o_letters\\Collision_725bc9d7-91ac-4798-80d7-01b6e7537a85.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "dba7d5d7-5552-4961-9402-a252f347b0a7",
@@ -268,6 +324,22 @@
                 "id": "aa099def-6157-4e8a-a0c2-2d40da68beaf",
                 "resourcePath": "views\\ccfb8a44-f320-46ab-affc-384f64d875f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d80a0664-2002-4884-af5b-a778b5c36e98",
+            "Value": {
+                "id": "26ca762c-49c8-478b-9327-e0a6926a6cd1",
+                "resourcePath": "datafiles_yy\\o_letters\\Step_0.gml.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "e5b3f804-192a-4355-94f9-f370c5ad909a",
+            "Value": {
+                "id": "c7fea6d0-a36a-4861-b4b2-d1a88648bc55",
+                "resourcePath": "objects\\o_letters\\o_letters.yy",
+                "resourceType": "GMObject"
             }
         },
         {
