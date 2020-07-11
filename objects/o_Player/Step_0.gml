@@ -11,15 +11,19 @@ num_removed = m;
 
 
 if (room == room2){
-	var boundsx = [100, 1100];
-	var boundsy = [100, 1100];
 	var delta = current_time - last_time;
 	if (delta > 3000){
+		var boundsx = [100, 1100];
+		var boundsy = [100, 1100];
 		repeat(4){
 			var j = irandom(25);
 			if (letters[j]){
-				inst = instance_create_layer(x, y, "Player", o_letters);
 				letters[j] = 0;
+				if (!sc_check_move()){
+					letters[j] = 1;
+					continue;
+				}
+				inst = instance_create_layer(x, y, "Player", o_letters);
 				with (inst)
 				{
 					image_index = j;

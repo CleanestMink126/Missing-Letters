@@ -17,4 +17,4 @@ draw_set_color(c_red);
 xpos = o_Player.x;
 ypos = o_Player.y;
 
-draw_text(xpos-40,ypos+40,"Time: " + string(timer/30));
+draw_text(xpos-40,ypos+40,sc_filt("Time: ") + string(timer/30));
