@@ -33,12 +33,22 @@
             "enumb": 32,
             "eventtype": 9,
             "m_owner": "5b2546fa-9733-4acf-aa37-61d35709d4bc"
+        },
+        {
+            "id": "4e71d45d-22d8-44e7-b1a7-419767ee30de",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "5b2546fa-9733-4acf-aa37-61d35709d4bc"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -135,6 +145,48 @@
             "resourceFilter": 1023,
             "value": "8",
             "varName": "player_speed ",
+            "varType": 0
+        },
+        {
+            "id": "d498dfc5-7b53-415c-b989-81c2b2decac3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "num_removed",
+            "varType": 0
+        },
+        {
+            "id": "8997b327-7e39-46bc-83bc-c3952984a820",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "-1",
+            "varName": "curr_audio",
+            "varType": 0
+        },
+        {
+            "id": "e0a9cadb-258c-423b-b5b4-58808fa61d53",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "last_time",
             "varType": 0
         }
     ],
