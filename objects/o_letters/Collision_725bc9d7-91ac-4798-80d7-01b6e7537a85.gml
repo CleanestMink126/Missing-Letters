@@ -14,7 +14,7 @@ if ((abs(curr_errorx) + abs(curr_errory))< 50){
 		j++;
 	}
 	
-	if (m == tttttttttfhgtfthsawdsdawasdwdawd0 and room == room0){
+	if (m == 0 and room == room0){
 		room_goto(room2);
 		player.x = 670;
 		player.y = 640;
