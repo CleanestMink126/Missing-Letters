@@ -6,13 +6,6 @@
 //2. If player has that key, enter it into the list at its designated point
 //3. if something is added into the list, move the integer in the list to accept the next input
 //4. if the list is full, check it against the password and see if it matches
-if (keyboard_check_pressed(vk_escape)){
-	result = "";
-	count = 1;
-	player.can_move = 1;
-	instance_destroy(textbox_id);
-	textbox_id =0;
-}
 
 
 var player = instance_find(o_Player, 0);
