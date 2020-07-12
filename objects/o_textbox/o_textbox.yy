@@ -71,7 +71,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"What gets wetter as it dries?\"",
+            "value": "\"Same old same old\"",
             "varName": "text",
             "varType": 2
         },

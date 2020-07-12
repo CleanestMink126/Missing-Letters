@@ -40,16 +40,45 @@
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
-    "physicsDensity": 0.5,
+    "physicsDensity": 0,
     "physicsFriction": 0.2,
-    "physicsGroup": 0,
+    "physicsGroup": 1,
     "physicsKinematic": false,
     "physicsLinearDamping": 0.1,
-    "physicsObject": false,
+    "physicsObject": true,
     "physicsRestitution": 0.1,
-    "physicsSensor": false,
+    "physicsSensor": true,
     "physicsShape": 1,
-    "physicsShapePoints": null,
+    "physicsShapePoints": [
+        {
+            "id": "d961be19-4e0a-4004-b49c-d1ee5f4e360f",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "f730cbe1-fe34-4fbf-9c07-890ab1a53cb8",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 40,
+            "y": 0
+        },
+        {
+            "id": "16252ec7-37a1-408e-aeb6-be54ed8c5860",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 40,
+            "y": 40
+        },
+        {
+            "id": "470c65e8-f287-4d99-8188-618561b32b40",
+            "modelName": "GMPoint",
+            "mvc": "1.0",
+            "x": 0,
+            "y": 40
+        }
+    ],
     "physicsStartAwake": true,
     "properties": [
         {
@@ -79,9 +108,23 @@
             "value": "0",
             "varName": "PlayerInput",
             "varType": 2
+        },
+        {
+            "id": "12244c1a-c52d-456e-8e71-88e6795dcb49",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "\"What gets wetter as it dries?\"",
+            "varName": "Riddle",
+            "varType": 2
         }
     ],
-    "solid": false,
+    "solid": true,
     "spriteId": "6a421874-ae99-43cf-a195-c45c03893a24",
     "visible": true
 }

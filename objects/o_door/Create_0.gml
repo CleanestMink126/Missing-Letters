@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-var result = "";
-var count = 0;
+result = "";
+count = 1;
