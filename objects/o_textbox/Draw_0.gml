@@ -13,7 +13,7 @@ draw_set_color(c_yellow);
 if(player.curr_audio = 3){
 draw_set_color(c_red);
 }
-
+draw_set_font(f_textbox);
 draw_sprite(s_textbox,0,x,y);
 
-draw_text_ext(x,y,sc_filt(text),30,350);
+draw_text_ext(x+6,y+6,sc_filt(text),30,336);

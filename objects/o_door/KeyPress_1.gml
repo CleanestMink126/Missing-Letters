@@ -40,8 +40,8 @@ if(collision_rectangle(x+60,y+60,x-60,y-60,o_Player,true,false)  != noone){
 			textbox_id =0;
 			if(result == Password){
 				audio_play_sound(a_yep, 5, 0);
-				sc_trans_room();
 				instance_destroy();
+				sc_trans_room();
 			}else{
 				audio_play_sound(a_nope, 5, 0);
 				result = "";

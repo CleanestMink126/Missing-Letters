@@ -11,6 +11,7 @@ if(player.curr_room == 1){
 		valid_spaces = [];
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
+		letter_index = 0;
 	}
 
 } else if(player.curr_room == 2){
@@ -18,26 +19,29 @@ if(player.curr_room == 1){
 	with(player){
 		x = 1020;
 		y = 420;
-		num_pop = 12;
-		pop_time = 25;
+		num_pop = 10;
+		pop_time = 22;
 		valid_spaces = [];
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
+		letter_index = 0;
 	}
 } else if(player.curr_room == 3){
 	room_goto(room3);
 	with(player){
 		x = 670;
 		y = 640;
-		num_pop = 5;
-		pop_time = 30;
+		num_pop = 19;
+		pop_time = 35;
 		valid_spaces = [];
 		player_speed = 10;
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
+		letter_index = 0;
 	}
 }else if(player.curr_room == 4){
 	room_goto(win_room);
-	instance_destroy(player);
+	instance_destroy(o_timer);
+	instance_destroy(o_Player);
 }
 

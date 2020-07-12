@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0cd61fe9-fafb-4a84-933e-71f848a01a6a",
+            "Value": {
+                "id": "4436f71e-9c7c-47c0-8c95-897fc6c9f40b",
+                "resourcePath": "fonts\\f_scribble\\f_scribble.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "0ddfdeca-cf77-4294-9b8b-a36e260aad41",
             "Value": {
                 "id": "87fe9a2b-02f4-44c1-ad8c-6a13c41375e7",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "6d73d96c-1540-402c-b604-692de960c1e5",
+            "Value": {
+                "id": "ac6607a2-c62a-4528-9205-2e7bccef8475",
+                "resourcePath": "sprites\\s_letter_box\\s_letter_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6dd73d2b-1fec-41bc-b620-aff12194bec4",
             "Value": {
                 "id": "38416750-3575-40a3-95cd-d8a04fab6f2e",
@@ -487,6 +503,14 @@
             }
         },
         {
+            "Key": "ab937617-4944-4ee2-887d-0d288a6c3797",
+            "Value": {
+                "id": "fcd38929-5a0a-4fa6-9ad5-a0cf4dc88c3c",
+                "resourcePath": "fonts\\f_textbox\\f_textbox.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b04d47f2-55dc-41be-9fe0-f9a1e5351ed2",
             "Value": {
                 "id": "257f0700-e013-4af0-b0b9-8e4111ef3fe2",
@@ -527,6 +551,14 @@
             }
         },
         {
+            "Key": "c42cda03-b72b-47cc-983b-ad0b676be030",
+            "Value": {
+                "id": "9448a817-334d-4960-b7c4-9f8abe1ba4c3",
+                "resourcePath": "objects\\o_letter_box\\o_letter_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c512fce1-5920-494b-b436-599a3f10043b",
             "Value": {
                 "id": "2ef4f7ad-aee7-411b-80ec-070de7433d7b",
@@ -540,6 +572,14 @@
                 "id": "cd39d696-d43c-46eb-bb92-99c2b9ffdeb6",
                 "resourcePath": "sprites\\s_wire\\s_wire.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cc471f4a-afee-4a8b-a660-65d46ad78d7f",
+            "Value": {
+                "id": "2e6f6f59-a1a1-435c-b614-bda6caaa7bc8",
+                "resourcePath": "scripts\\sc_gen_letter\\sc_gen_letter.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -660,7 +700,8 @@
         "26324b4e-8c80-4653-88d6-02c06d56615f",
         "e30f07df-7c45-4ee9-b0b9-70b06ae24831",
         "59ea7aee-13f8-413f-a427-c7a8b0300cb7",
-        "a481d81c-c53c-4337-8341-2d4b14dff30a"
+        "a481d81c-c53c-4337-8341-2d4b14dff30a",
+        "cc471f4a-afee-4a8b-a660-65d46ad78d7f"
     ],
     "tutorial": ""
 }

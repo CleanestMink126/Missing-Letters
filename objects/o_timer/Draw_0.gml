@@ -1,20 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(o_Player.curr_audio = 0){
-draw_set_color(c_green);
-}
-if(o_Player.curr_audio = 1){
-draw_set_color(c_white);
-}
-if(o_Player.curr_audio = 2){
-draw_set_color(c_yellow);
-}
-if(o_Player.curr_audio = 3){
-draw_set_color(c_red);
+var player = instance_find(o_Player, 0);
+var delta = current_time - player.last_time;
+var time_left = player.pop_time - delta/1000;
+if (room == room1 or room == room2 or room == room3){
+	if(time_left > 20){
+		draw_set_color(c_green);
+	} else if(time_left > 10){
+		draw_set_color(c_white);
+	} else if(time_left > 5){
+		draw_set_color(c_yellow);
+	} else {
+		draw_set_color(c_red);
+	}
+
+	//Add color changes dependent on current music
+	xpos = player.x;
+	ypos = player.y;
+
+
+	draw_text(xpos-80,ypos+40,sc_filt("Control Loss: ") + string(ceil(time_left)));
 }
 
-//Add color changes dependent on current music
-xpos = o_Player.x;
-ypos = o_Player.y;
-
-draw_text(xpos-40,ypos+40,sc_filt("Time: ") + string(timer/30));
