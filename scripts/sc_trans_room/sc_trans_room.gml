@@ -6,8 +6,8 @@ if(player.curr_room == 1){
 	with(player){
 		x = 540;
 		y = 380;
-		num_pop = 3;
-		pop_time = 10;
+		num_pop = 5;
+		pop_time = 15;
 		valid_spaces = [];
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
@@ -18,8 +18,8 @@ if(player.curr_room == 1){
 	with(player){
 		x = 1020;
 		y = 420;
-		num_pop = 7;
-		pop_time = 15;
+		num_pop = 12;
+		pop_time = 25;
 		valid_spaces = [];
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
@@ -29,8 +29,8 @@ if(player.curr_room == 1){
 	with(player){
 		x = 670;
 		y = 640;
-		num_pop = 3;
-		pop_time = 10;
+		num_pop = 10;
+		pop_time = 20;
 		valid_spaces = [];
 		player_speed = 10;
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
