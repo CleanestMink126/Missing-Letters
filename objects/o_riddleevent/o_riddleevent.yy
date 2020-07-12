@@ -33,6 +33,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "1a2f474b-e89d-4ced-93c4-8905adfe9df0"
+        },
+        {
+            "id": "841766e6-e196-45b8-b6b5-04863f11a95b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "1a2f474b-e89d-4ced-93c4-8905adfe9df0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -92,11 +102,53 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "variable_name",
+            "varName": "image_speed",
             "varType": 0
+        },
+        {
+            "id": "c940af28-2503-4413-852a-11c3517a6eea",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "textbox_id",
+            "varType": 0
+        },
+        {
+            "id": "d9ffd088-3027-4642-8c0d-185c8a2aaf45",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "You can tuna fish, but you can't tune a piano!",
+            "varName": "riddle_text",
+            "varType": 2
+        },
+        {
+            "id": "8856c6d6-a545-46c6-8a79-ef48fa4bbaa6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "sprite_idx",
+            "varType": 1
         }
     ],
     "solid": true,
-    "spriteId": "867be560-c556-401e-afd3-684c79debc8f",
+    "spriteId": "8aa918d4-8e0e-41b5-96ba-092581090276",
     "visible": true
 }

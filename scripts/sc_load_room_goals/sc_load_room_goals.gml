@@ -15,5 +15,6 @@ while (y_p < room_height){
 	x_p = 32;
 	y_p += 32;
 }
+show_debug_message("Valid Spaces Calculated")
 show_debug_message(valid_spaces)
 player.valid_spaces = valid_spaces;

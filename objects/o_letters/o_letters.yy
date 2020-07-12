@@ -248,6 +248,20 @@
             "value": "50",
             "varName": "tol",
             "varType": 0
+        },
+        {
+            "id": "9237faed-e722-44b3-ac64-54586a1f5790",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "curr_room",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -3,6 +3,7 @@
 
 // I'm sorry this is really bad code.....we only have 48 hours
 var h = 768 - 128;
+draw_set_color(c_white);
 draw_sprite(s_gui_back, 0, 0, h);
 draw_set_font(f_gui);
 draw_text(10, h+ 10,  sc_filt("MOVE WITH:"));

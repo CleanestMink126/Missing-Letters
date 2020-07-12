@@ -8,13 +8,14 @@ repeat(26){
 }
 num_removed = m;
 
-//image_angle = arctan2(phy_speed_y, phy_speed_x) * 180 / 3.14159
-
-if (room == room2){
+if (room == room1 or room == room2 or room == room3){
+	if(array_length_1d(valid_spaces) < 1){
+		sc_load_room_goals();
+	}
 	var delta = current_time - last_time;
-	if (delta > 10000){
+	if (delta > pop_time * 1000){
 		audio_play_sound(a_horn2, 9, 0);
-		repeat(5){
+		repeat(num_pop){
 			var j = irandom(25);
 			if (letters[j]){
 				letters[j] = 0;

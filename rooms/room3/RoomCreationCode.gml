@@ -1,0 +1,1 @@
+sc_load_room_goals();

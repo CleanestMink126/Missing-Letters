@@ -268,6 +268,48 @@
             "value": "1",
             "varName": "can_move",
             "varType": 1
+        },
+        {
+            "id": "a8472b2d-d550-4ac6-a7f2-3a307da2d37c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "10",
+            "varName": "pop_time",
+            "varType": 0
+        },
+        {
+            "id": "74a68516-ad4d-4b77-8b69-7636f47868ef",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "num_pop",
+            "varType": 0
+        },
+        {
+            "id": "b768cad8-9142-49ae-a3f2-e673568a232b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "curr_room",
+            "varType": 0
         }
     ],
     "solid": false,

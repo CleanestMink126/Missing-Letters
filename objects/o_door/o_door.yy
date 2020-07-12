@@ -105,12 +105,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
+            "value": "",
             "varName": "PlayerInput",
             "varType": 2
         },
         {
-            "id": "12244c1a-c52d-456e-8e71-88e6795dcb49",
+            "id": "23e489fc-aa28-4816-b31d-6ea29c6a59a7",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -119,9 +119,9 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "\"What gets wetter as it dries?\"",
-            "varName": "Riddle",
-            "varType": 2
+            "value": "0",
+            "varName": "textbox_id",
+            "varType": 0
         }
     ],
     "solid": true,
