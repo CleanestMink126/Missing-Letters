@@ -29,12 +29,15 @@ if(player.curr_room == 1){
 	with(player){
 		x = 670;
 		y = 640;
-		num_pop = 10;
-		pop_time = 20;
+		num_pop = 5;
+		pop_time = 30;
 		valid_spaces = [];
 		player_speed = 10;
 		letters = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 		last_time = 0;
 	}
+}else if(player.curr_room == 4){
+	room_goto(win_room);
+	instance_destroy(player);
 }
 
