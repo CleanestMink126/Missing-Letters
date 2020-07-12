@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+/// @description Insert description here
+// You can write your code in this editor
 var delta = current_time - time;
 
 if(delta < 4000){
@@ -23,6 +25,6 @@ if(delta < 4000){
 		audio_play_sound(a_horn2, 3, 0);
 	}
 	image_index = 1;
-}else{
-	room_goto(inst_room);
+}else {
+	image_index = 0;
 }
